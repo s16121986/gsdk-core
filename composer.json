@@ -1,0 +1,32 @@
+{
+  "name": "gsdk/core",
+  "type": "library",
+  "description": "Core",
+  "version": "1.0.0",
+  "keywords": [
+	"gsdk"
+  ],
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "Sergey Guryanov",
+	  "email": "s16121986@yandex.ru"
+	}
+  ],
+  "require": {
+	"php": ">=8.0.2"
+  },
+  "require-dev": {
+  },
+  "conflict": {
+  },
+  "autoload": {
+	"files": [
+	  "functions.php"
+	],
+	"psr-4": {
+	  "Gsdk\\Core\\": ""
+	}
+  },
+  "minimum-stability": "dev"
+}
